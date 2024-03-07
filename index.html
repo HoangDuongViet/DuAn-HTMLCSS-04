@@ -5,10 +5,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Lucy</title>
 		<!-- favicon -->
-		<link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/favicon/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./assets/favicon/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="./assets/favicon/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/favicon/apple-icon-76x76.png"
+		/>
 		<link
 			rel="apple-touch-icon"
 			sizes="114x114"
@@ -60,11 +76,14 @@
 		/>
 		<link rel="manifest" href="./assets/favicon/manifest.json" />
 		<meta name="msapplication-TileColor" content="#ffffff" />
-		<meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
+		<meta
+			name="msapplication-TileImage"
+			content="./assets/favicon/ms-icon-144x144.png"
+		/>
 		<meta name="theme-color" content="#ffffff" />
 		<!-- reset CSS and style CSS -->
-		<link rel="stylesheet" href="./assets/reset.css" />
-		<link rel="stylesheet" href="./assets/styles.css" />
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
 		<!-- embed font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -73,5 +92,146 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body></body>
+	<body style="height: 100000px">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<!-- logo -->
+					<img src="./assets/img/logo.svg" alt="Lucy" />
+					<!-- navbar -->
+					<nav class="navbar">
+						<ul class="navbar__list">
+							<li class="navbar__item">
+								<a href="#!" class="navbar__link">Home</a>
+							</li>
+							<li class="navbar__item">
+								<a href="#!" class="navbar__link">About</a>
+							</li>
+							<li class="navbar__item">
+								<a href="#!" class="navbar__link">Services & Rates</a>
+							</li>
+							<li class="navbar__item">
+								<a href="#!" class="navbar__link">Reviews</a>
+							</li>
+							<li class="navbar__item">
+								<a href="#!" class="navbar__link">Contacts us</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- header action -->
+					<div class="header-action">
+						<a href="#!" class="header-action__link">Sign in</a>
+						<a href="#!" class="header-action__btn btn">Sign up</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- hero -->
+		<section class="hero">
+			<div class="container">
+				<div class="hero__inner">
+					<!-- left -->
+					<div class="hero__media">
+						<div class="hero__img-wrap">
+							<img
+								src="./assets/img/pet-01.png"
+								alt="hero__img"
+								class="hero__img"
+							/>
+
+							<!-- Decorator -->
+							<img
+								src="./assets/img/Decor-01.svg"
+								alt=""
+								class="hero__decor-left"
+							/>
+							<img
+								src="./assets/img/Decor-02.svg"
+								alt=""
+								class="hero__decor-right"
+							/>
+
+							<div class="hero__list">
+								<!-- section 1 -->
+								<section class="hero__list-item">
+									<img
+										src="./assets/img/pet-03.png"
+										alt=""
+										class="hero-list-item__thumb"
+									/>
+									<div class="hero-list-item__info">
+										<p class="hero-list-item__title">Pet Health</p>
+										<div class="hero-list-item__skeleton"></div>
+										<div
+											class="hero-list-item__skeleton"
+											style="--width: 39px"
+										></div>
+									</div>
+								</section>
+								<div class="hero-list-item__separate"></div>
+								<!-- section 2 -->
+								<section class="hero__list-item">
+									<img
+										src="./assets/img/pet-04.png"
+										alt=""
+										class="hero-list-item__thumb"
+									/>
+									<div class="hero-list-item__info">
+										<p class="hero-list-item__title">Pet care</p>
+										<div class="hero-list-item__skeleton"></div>
+										<div
+											class="hero-list-item__skeleton"
+											style="--width: 39px"
+										></div>
+									</div>
+								</section>
+							</div>
+						</div>
+						<div class="hero__img-wrap--small">
+							<!-- pet 02 -->
+							<img
+								src="./assets/img/pet-02.png"
+								alt=""
+								class="hero__img--small"
+							/>
+						</div>
+					</div>
+					<!-- right -->
+					<section class="hero__content">
+						<h1 class="hero-content__heading">
+							Established & Trusted Pet Care Service
+						</h1>
+						<p class="hero-content__desc">
+							Discover a wide variety of Pawsitive services to choose
+							from, including daycare, private walks, office duty and
+							spa.
+						</p>
+
+						<div class="hero-content__action">
+							<a href="#!" class="hero__cta btn">
+								Book a Meet
+								<span class="btn-icon">
+									<svg
+										width="5"
+										height="6"
+										viewBox="0 0 5 6"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+											stroke="#FD5056"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</span>
+							</a>
+							<a href="#!" class="hero-cta__link">Schedule a Call</a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
